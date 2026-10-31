@@ -1,0 +1,15 @@
+# Python environment for the live code cells of the Linear Structural Dynamics book.
+#
+# mybinder.org builds the kernel image from this file and runtime.txt (Python 3.12).
+# The book website sends each code cell to that kernel when a reader runs it.
+# Keep this in sync with requirements.txt of the private source repository.
+#
+# OpenSeesPy 3.8 resolves its compiled backend only on Python >= 3.12; on Linux
+# (Binder) it pulls openseespylinux automatically.
+
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+plotly>=5.18
+openseespy==3.8.0.0
+ipykernel>=6.27

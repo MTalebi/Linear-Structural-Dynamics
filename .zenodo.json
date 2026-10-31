@@ -1,0 +1,32 @@
+{
+  "title": "Linear Structural Dynamics",
+  "upload_type": "software",
+  "description": "<p>The book teaches the dynamics of structures by building one small numerical solver for the equation of motion and handing it every kind of load. It starts from the single-degree-of-freedom model and free vibration, builds a state-space engine with exact, Newmark and central-difference integrators, and applies it to harmonic and periodic loads, arbitrary loads and earthquakes, assembling response spectra point by point. It then moves to yielding oscillators and ductility, to modal analysis of multi-story buildings, and to response-spectrum analysis and the equivalent lateral force method of ASCE 7. Every chapter combines worked examples, diagrams and interactive figures, and the numbers in the text are printed by code that the reader can run in the browser. The code uses NumPy, SciPy and OpenSeesPy, with consistent SI units throughout.</p><p>The book is published online at <a href=\"https://mtalebi.github.io/Structural-Dynamics-Book/\">https://mtalebi.github.io/Structural-Dynamics-Book/</a>, where the code cells can be run in the browser. This record archives the citation metadata of the book, the Python environment of its live kernel, and the two Python modules that every chapter imports, sdtools.py and osdof.py. The text and figures are licensed under CC BY-NC-ND 4.0, and the code, including these two modules and the code examples in the book, is licensed under the MIT License.</p>",
+  "creators": [
+    {
+      "name": "Talebi-Kalaleh, Mohammad",
+      "affiliation": "University of Alberta",
+      "orcid": "0009-0004-3754-5992"
+    }
+  ],
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "structural dynamics",
+    "single degree of freedom",
+    "SDOF",
+    "OpenSeesPy",
+    "state space",
+    "response spectrum",
+    "earthquake engineering",
+    "modal analysis",
+    "NumPy"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://mtalebi.github.io/Structural-Dynamics-Book/",
+      "relation": "isSupplementTo"
+    }
+  ]
+}

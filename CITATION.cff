@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this book, please cite it using the metadata below."
+type: software
+title: "Linear Structural Dynamics"
+# STAGE 2 ONLY (after the Zenodo release): add the concept DOI on the next line.
+# doi: {{CONCEPT_DOI}}
+abstract: >-
+  A coding-first book on linear structural dynamics with NumPy and OpenSeesPy, built
+  around one numerical solver for the equation of motion that is handed every kind of
+  load. The solver is applied to free vibration, harmonic and periodic loads, arbitrary
+  loads and earthquakes, and then to yielding oscillators, modal analysis of multi-story
+  buildings, and response-spectrum analysis and the equivalent lateral force method of
+  ASCE 7. Every chapter combines worked examples, diagrams and interactive figures, and
+  its code cells can be run in the browser.
+authors:
+  - family-names: Talebi-Kalaleh
+    given-names: Mohammad
+    affiliation: University of Alberta
+    orcid: "https://orcid.org/0009-0004-3754-5992"
+# The text and figures are under CC BY-NC-ND 4.0 (LICENSE). The code, meaning sdtools.py,
+# osdof.py and the code examples in the book, is under the MIT License (LICENSE-CODE).
+license: CC-BY-NC-ND-4.0
+url: "https://mtalebi.github.io/Structural-Dynamics-Book/"
+repository-code: "https://github.com/MTalebi/Linear-Structural-Dynamics"
+keywords:
+  - structural dynamics
+  - single degree of freedom
+  - SDOF
+  - OpenSeesPy
+  - state space
+  - response spectrum
+  - earthquake engineering
+  - modal analysis
+  - NumPy
